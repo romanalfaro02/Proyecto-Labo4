@@ -2,8 +2,8 @@ import { useState, useEffect } from "react";
 import AddSongForm from "./components/add-song";
 import SongList from "./components/list-song";
 import VideoModal from "./components/video-modal";
-import "./Css/DeleteSong.css";
-import "./Css/Addsong.css";
+import "./CSS/DeleteSong.css";
+import "./CSS/Addsong.css";
 
 const App = () => {
   const [songs, setSongs] = useState(() => {
