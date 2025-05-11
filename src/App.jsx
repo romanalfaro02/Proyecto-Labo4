@@ -3,7 +3,7 @@ import AddSongForm from "./components/add-song";
 import SongList from "./components/list-song";
 import VideoModal from "./components/video-modal";
 import "./CSS/DeleteSong.css";
-import "./CSS/Addsong.css";
+import "./CSS/AddSong.css";
 
 const App = () => {
   const [songs, setSongs] = useState(() => {
