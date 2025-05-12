@@ -1,5 +1,5 @@
- import "../Css/VideoModal.css";
- const VideoModal = ({ song, isOpen, onClose }) => {
+import "../CSS/VideoModal.css";
+const VideoModal = ({ song, isOpen, onClose }) => {
   if (!isOpen || !song) return null;
 
   return (  
