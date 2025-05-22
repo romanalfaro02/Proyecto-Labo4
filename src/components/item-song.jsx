@@ -1,4 +1,4 @@
-const SongItem = ({ song, onPlay, onDelete }) => {
+function SongItem  ({ song, onPlay, onDelete })  {
   return (
     <ul className="song-list">
       
@@ -14,6 +14,6 @@ const SongItem = ({ song, onPlay, onDelete }) => {
       
     </ul>
   );
-};
+}
 
 export default SongItem;

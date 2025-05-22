@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const AddSongForm = ({ onAddSong }) => {
+function AddSongForm  ({ onAddSong }) {
   const [name, setName] = useState("");
   const [url, setUrl] = useState("");
 
@@ -38,6 +38,6 @@ const AddSongForm = ({ onAddSong }) => {
       
     </form>
   );
-};
+}
 
 export default AddSongForm;

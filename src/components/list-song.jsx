@@ -1,6 +1,6 @@
 import SongItem from './item-song';
 
-const SongList = ({ songs, onPlay, onDelete }) => {
+function SongList  ({ songs, onPlay, onDelete }) {
   return (
     <div className="song-container">
       <ul className="task-list">
@@ -15,7 +15,7 @@ const SongList = ({ songs, onPlay, onDelete }) => {
       </ul>
     </div>
   );
-};
+}
 
 export default SongList;
 

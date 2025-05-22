@@ -1,5 +1,5 @@
 import "../CSS/VideoModal.css";
-const VideoModal = ({ song, isOpen, onClose }) => {
+function VideoModal ({ song, isOpen, onClose }) {
   if (!isOpen || !song) return null;
 
   return (  
@@ -18,6 +18,6 @@ const VideoModal = ({ song, isOpen, onClose }) => {
       </div>
     
   );
-};
+}
 
 export default VideoModal;

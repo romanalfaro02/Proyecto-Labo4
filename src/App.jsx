@@ -5,7 +5,7 @@ import VideoModal from "./components/video-modal";
 import "./CSS/DeleteSong.css";
 import "./CSS/AddSong.css";
 
-const App = () => {
+function App () {
   const [songs, setSongs] = useState(() => {
     return JSON.parse(localStorage.getItem("songs")) || [];
   });
@@ -83,6 +83,6 @@ const App = () => {
       <VideoModal song={selectedSong} isOpen={modalOpen} onClose={() => setModalOpen(false)} />
     </div>
   );
-};
+}
 
 export default App;
